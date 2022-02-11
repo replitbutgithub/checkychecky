@@ -1,0 +1,65 @@
+{
+    "name": "Bug Off! V1.2 DEV-ED",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "pxt-lantern": "github:felixtsu/pxt-lantern#v0.2.0",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.1",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.1",
+        "pxt-rtttl": "github:pelikhan/pxt-rtttl#v0.0.10"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.6.24",
+        "tag": "v1.6.24",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/5bea1575ea693e0648a647cbd86cda9776d58f48",
+        "target": "1.8.17",
+        "pxt": "7.2.25",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "111111",
+        "cbd1be",
+        "8f9389",
+        "52534c",
+        "26201d",
+        "e0a46e",
+        "91a47a",
+        "5d7643",
+        "4d533a",
+        "a93130",
+        "7a1338",
+        "834664",
+        "917692",
+        "593084",
+        "3870be",
+        "000000"
+    ],
+    "yotta": {
+        "config": {
+            "PXT_GC_CHECKS": 1
+        }
+    }
+}
